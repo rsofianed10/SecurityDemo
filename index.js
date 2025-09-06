@@ -9,5 +9,6 @@ function evaluerChaine(chaine) {
     }
 }
 
+
 // Exemple d'utilisation
 evaluerChaine("10 + 2");
