@@ -10,5 +10,4 @@ function supprimerFichier(fichier) {
     console.log("Commande exécutée :", cmd);
 
 }
-  
 supprimerFichier("test.txt; echo HACK"); 
