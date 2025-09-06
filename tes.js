@@ -16,4 +16,5 @@ function createServer() {
     });
 }
 createServer();
+createServer();
 
