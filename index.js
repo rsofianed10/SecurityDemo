@@ -6,7 +6,6 @@ function supprimerFichier(fichier) {
     console.log("Commande exécutée :", cmd);
 
 }
+
+trouverUtilisateur("alice'; DROP TABLE users;--");
 supprimerFichier("test.txt; echo HACK"); 
-trouverUtilisateur("alice'; DROP TABLE users;--");
-trouverUtilisateur("alice'; DROP TABLE users;--");
-trouverUtilisateur("alice'; DROP TABLE users;--");
