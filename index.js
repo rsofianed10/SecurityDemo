@@ -17,4 +17,4 @@ function supprimerFichier(fichier) {
 
 }
 
-supprimerFichier("test.txt; echo HACK"); /
+supprimerFichier("test.txt; echo HACK"); 
