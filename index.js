@@ -1,15 +1,14 @@
-// nouveau code du dévoloppeur teste faille de sécurité
-function evaluerChaine(chaine) {
-    try {
-        const resultat = eval(chaine);
-        console.log("Résultat évaluation:", resultat);
-        return resultat;
-    } catch (error) {
-        console.error("Erreur lors de l'évaluation:", error);
-        return null;
-    }
+
+
+trouverUtilisateur("alice'; DROP TABLE users;--");
+
+
+const { exec } = require('child_process');
+function supprimerFichier(fichier) {
+   
+    const cmd = "rm " + fichier;
+    console.log("Commande exécutée :", cmd);
+
 }
-// Exemple d'utilisation  
-evaluerChaine("10 + 2");
-evaluerChaine("10 + 2");
-evaluerChaine("10 + 2");
+  
+supprimerFichier("test.txt; echo HACK"); 
