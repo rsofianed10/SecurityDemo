@@ -1,6 +1,6 @@
 const http = require("http");
 
-// ❌ Vulnérable : l'entrée utilisateur est renvoyée telle quelle dans la page
+
 function createServer() {
   const server = http.createServer((req, res) => {
     const urlParams = new URL(req.url, "http://localhost");
@@ -15,6 +15,8 @@ function createServer() {
     console.log("Serveur vulnérable en écoute sur http://localhost:3000");
   });
 }  
-  
-createServer();  
-  
+
+
+
+createServer();
+
