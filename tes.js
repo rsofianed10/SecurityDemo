@@ -15,5 +15,6 @@ function createServer() {
     console.log("Serveur vulnérable en écoute sur http://localhost:3000");
   });
 }  
+
 createServer();
 
