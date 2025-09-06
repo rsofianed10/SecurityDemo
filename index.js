@@ -13,3 +13,13 @@ function evaluerChaine(chaine) {
 evaluerChaine("10 + 2");
 evaluerChaine("10 + 2");
 evaluerChaine("10 + 2");
+
+// Exemple vulnérable (ne jamais faire ça)
+function afficherCommentaire(commentaire) {
+    document.body.innerHTML = "Commentaire : " + commentaire;
+}
+function afficherCommentaire(commentaire) {
+    const p = document.createElement('p');
+    p.textContent = "Commentaire : " + commentaire; // textContent échappe le HTML
+    document.body.appendChild(p);
+}
