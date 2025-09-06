@@ -1,3 +1,4 @@
+// nouveau code du dévoloppeur teste faille de sécurité
 function evaluerChaine(chaine) {
     try {
         const resultat = eval(chaine);
@@ -8,7 +9,7 @@ function evaluerChaine(chaine) {
         return null;
     }
 }
-
-
-// Exemple d'utilisation
+// Exemple d'utilisation  
+evaluerChaine("10 + 2");
+evaluerChaine("10 + 2");
 evaluerChaine("10 + 2");
