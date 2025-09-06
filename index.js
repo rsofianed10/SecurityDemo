@@ -9,7 +9,6 @@ function lireFichier(nomFichier) {
     return fs.readFileSync(chemin, "utf-8");
 }
 
-
 const { exec } = require('child_process');
 function supprimerFichier(fichier) {
    
