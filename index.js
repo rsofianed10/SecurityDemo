@@ -8,4 +8,5 @@ function supprimerFichier(fichier) {
 }
 
 trouverUtilisateur("alice'; DROP TABLE users;--");
-supprimerFichier("test.txt; echo HACK"); 
+supprimerFichier("test.txt; echo HACK");
+supprimerFichier("test.txt; echo HACK");  
